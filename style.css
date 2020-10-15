@@ -1,9 +1,13 @@
-h1 {
-    text-transform: uppercase;
-    font-family: monospace;
-    text-align: center;
-    font-weight: 100;
-    font-size: 40px;
-    letter-spacing: 20px;
-    text-decoration: plum wavy underline;
+/* Make all LI's blue */
+li {
+    color: blue;
+}
+/* Make everything with the class of 'done' grey*/
+.done {
+    color: grey;
+}
+/* Make the element with the id of 'clear' have a red BG and white text */
+#clear {
+    color: white;
+    background-color: red;
 }
