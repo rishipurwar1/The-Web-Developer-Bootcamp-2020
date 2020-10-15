@@ -1,9 +1,7 @@
-header a {
-    font-size: 30px;
-    color: teal;
+.square:nth-child(odd) {
+    background-color: red;
 }
 
-#dislikes a {
-    font-weight: bold;
-    color: red;
+.square:nth-child(even) {
+    background-color: black;
 }
