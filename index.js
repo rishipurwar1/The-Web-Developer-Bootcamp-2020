@@ -1,17 +1,13 @@
-function validUserNames(strArr){
-	const filterArr = strArr.filter(function(names) {
-	    return names.length < 10;
-        });
-        return filterArr;
+function allEvens(arr) {
+    let newArray = arr.every(num => num % 2 === 0);
+    return newArray;
 }
 
-// Solution using arrow function
-const validUserNames = (strArr) => {
-    const filterArr = strArr.filter(names => {
-	    return names.length < 10;
-        });
-        return filterArr;
+// Using arrow function
+const allEvens = arr => {
+    let newArray = arr.every(num => num % 2 === 0);
+    return newArray;
 }
 
-// using implicit return 
-const validUserNames = strArr =>  strArr.filter(names => names.length < 10);
+// Using implicit return
+const allEvens = arr => arr.every(num => num % 2 === 0);
