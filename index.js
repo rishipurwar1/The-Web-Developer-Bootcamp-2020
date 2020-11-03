@@ -1,6 +1,8 @@
-// DEFINE YOUR FUNCTION:
-function rant(message){
-    for(let i = 0; i<3; i++){
-        console.log(message.toUpperCase());
+// define isSnakeEyes below:
+function isSnakeEyes(die1,die2) {
+    if(die1 === 1 && die2 === 1) {
+        console.log('Snake Eyes!');
+    }else {
+       console.log('Not Snake Eyes!');
     }
 }
