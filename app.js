@@ -1,3 +1,5 @@
-// The url you need: 'https://www.flaticon.com/svg/static/icons/svg/3523/3523063.svg'
-document.querySelector("#egg").setAttribute("src", "https://www.flaticon.com/svg/static/icons/svg/3523/3523063.svg");
-document.querySelector("#egg").alt = "chicken";
+const container = document.querySelector('#container');
+const image = document.querySelector('img');
+container.style.textAlign = 'center';
+image.style.width = '150px';
+image.style.borderRadius = '50%';
