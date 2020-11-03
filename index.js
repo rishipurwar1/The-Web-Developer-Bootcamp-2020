@@ -1,3 +1,3 @@
-// YOU CODE GOES HERE:
-const boilingPointC = 100;
-const boilingPointF = 212;
+// Your code goes in here:
+const bestColor = 'purple';
+const quote = "You had me at \"hello\"";
