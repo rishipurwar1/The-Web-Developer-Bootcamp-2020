@@ -1,25 +1,5 @@
-const days = {
-    1: 'Monday',
-    2: "Tuesday",
-    3: "Wednesday",
-    4: "Thursday",
-    5: "Friday",
-    6: "Saturday",
-    7: "Sunday"
-}
- 
-const returnDay = (number) => {
-    if(number < 1 || number > 7) {
-        return null;
-    }
-    return (days[number])
-}
+//NOTE: Udemy's coding exercise platform does NOT support the ** operator.  You'll need to multiply a number by itself or use the Math.pow() method.
 
-// Alternative Solution
-const returnDay = (num) => {
-    const days = [null, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-      if(num < 1 || num > 7) {
-          return days[0];
-      }
-      return (days[num]);
-  }
+const square = function (num) {
+    return Math.pow(num, 2);
+}
