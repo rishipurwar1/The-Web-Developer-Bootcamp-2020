@@ -1,6 +1,7 @@
-function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+function sumArray(arr) {
+    let total = 0;
+    for(let i=0; i<arr.length;i++){
+        total = total+arr[i];
+    }
+    return total;
 }
-
-// Alternative Solution
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
