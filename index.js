@@ -1,11 +1,6 @@
-// DEFINE YOUR FUNCTION BELOW:
-function lastElement(arr) {
-    if(arr.length === 0) {
-        return null;
-    } else {
-        return arr[arr.length - 1];
-    }
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 // Alternative Solution
-const lastElement = arr => arr.length ? arr[arr.length - 1] : null;
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
