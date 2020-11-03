@@ -1,5 +1,7 @@
-const container = document.querySelector('#container');
-const image = document.querySelector('img');
-container.style.textAlign = 'center';
-image.style.width = '150px';
-image.style.borderRadius = '50%';
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']; //PLEASE DON'T CHANGE THIS LINE!
+
+let spans = document.querySelectorAll('span');
+for(let i in colors){
+    spans[i].style.color = colors[i];
+    console.log(i)
+}
