@@ -1,5 +1,6 @@
-const leaderboard = ['Harry', 'Lua', 'Hermoine', 'Bellatrix']; //DON'T TOUCH THIS LINE!
+const planets = ['The Moon','Venus', 'Earth', 'Mars', 'Jupiter']; //DO NOT TOUCH THIS LINE!
 
-// YOUR CODE BELOW HERE
-leaderboard[1] = "Luna";
-leaderboard[3] = "Draco";
+// YOUR CODE GOES BELOW THIS LINE:
+planets.shift();
+planets.push('Saturn');
+planets.unshift('Mercury');
