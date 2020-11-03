@@ -1,15 +1,7 @@
-// Change the value of num, so that "YOU GOT ME!" prints out
-const num = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
+const mystery = 'Prettier7'; //CHANGE THIS VALUE TO MAKE THE CONDITIONAL BELOW TRUE
 
-// DO NOT TOUCH ANYTHING BELOW (please) 
-if(num <= 100) {
-    if(num >= 50) {
-        console.log("HEY!");
-    }
-} else {
-    if (num < 103) {
-        if(num % 2 === 0){
-            console.log("YOU GOT ME!");
-        }
-    }
+
+// LEAVE THIS CODE ALONE! (pretty please)
+if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){
+    console.log("YOU GOT IT!!!");
 }
