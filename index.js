@@ -1,10 +1,4 @@
-//PLEASE DON'T TOUCH THIS LINE!
-const restaurant = {
-    name: 'Ichiran Ramen',
-    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
-    city: 'Brooklyn',
-    state: 'NY',
-    zipcode: '11206',
+// Print out "Da ba dee da ba daa" 6 times, using a for loop
+for (let i=1; i<=6; i++) {
+    console.log("Da ba dee da ba da");
 }
-
-const fullAddress = `${restaurant.address}, ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`;
