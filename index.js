@@ -1,5 +1,6 @@
-// DON'T TOUCH THIS LINE!
-const message = "    TASTE THE RAINBOW!  "; //DON'T CHANGE THIS LINE PLEASE!
+// DON'T TOUCH THIS LINE! (please)
+const word = 'skateboard' //Don't change this line!
 
 // YOUR CODE BELOW THIS LINE:
-const whisper = message.trim().toLowerCase();
+let facialHair = word.slice(5,10);
+facialHair = facialHair.replace('o','e');
