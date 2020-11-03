@@ -1,7 +1,15 @@
-.square:nth-child(odd) {
-    background-color: red;
+/* YOUR CODE GOES IN HERE */
+div {
+
+    width: 210px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.square:nth-child(even) {
-    background-color: black;
+img {
+   width: 200px;
+   border: 5px solid rgb(236, 183, 191);
+   border-radius: 50%;
+
 }
