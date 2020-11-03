@@ -1,18 +1,10 @@
-const form = document.querySelector('form');
-const list = document.querySelector('#list');
+const heading = document.querySelector('h1');
+const input = document.querySelector('input');
  
-form.addEventListener('submit', function (e){
-    e.preventDefault();
-    const prodName = form.elements.product;
-    const qty = form.elements.qty;
-    addProduct(prodName.value, qty.value);
-    prodName.value ='';
-    qty.value ='';
+input.addEventListener('input', function (e) {
+    if (!this.value) {
+        heading.innerText = `Enter Your Username`;
+    } else {
+        heading.innerText = `Welcome, ${this.value}`;
+    }
 });
- 
- 
-const addProduct = (prodName,q) => {
-    const newProd = document.createElement('li');
-    newProd.innerText = (`${q} ${prodName}s`);
-    list.appendChild(newProd);
-};
