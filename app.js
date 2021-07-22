@@ -1,18 +1,15 @@
 const form = document.querySelector('form');
-const list = document.querySelector('#list');
- 
-form.addEventListener('submit', function (e){
-    e.preventDefault();
-    const prodName = form.elements.product;
-    const qty = form.elements.qty;
-    addProduct(prodName.value, qty.value);
-    prodName.value ='';
-    qty.value ='';
+const shopList = document.querySelector('#list');
+const qty = document.querySelector('#qty');
+const product = document.querySelector('#product');
+
+form.addEventListener('submit', function(e){
+   e.preventDefault();
+   const newList = document.createElement('li');
+   newList.innerText = `${qty.value} ${product.value}`;
+   if(/^ *$/.test(product.value) || /^ *$/.test(qty.value)) newList.remove();
+   else shopList.appendChild(newList);
+   
+   qty.value = '';
+   product.value = '';
 });
- 
- 
-const addProduct = (prodName,q) => {
-    const newProd = document.createElement('li');
-    newProd.innerText = (`${q} ${prodName}s`);
-    list.appendChild(newProd);
-};
