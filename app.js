@@ -1,3 +1,4 @@
-// The url you need: 'https://www.flaticon.com/svg/static/icons/svg/3523/3523063.svg'
-document.querySelector("#egg").setAttribute("src", "https://www.flaticon.com/svg/static/icons/svg/3523/3523063.svg");
-document.querySelector("#egg").alt = "chicken";
+// The url you need: 'https://devsprouthosting.com/images/chicken.jpg'
+const img = document.querySelector('img');
+img.src = 'https://devsprouthosting.com/images/chicken.jpg';
+img.alt = 'chicken';
