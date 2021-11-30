@@ -1,14 +1,6 @@
-function cleanNames(arr){
-    const newArr = arr.map(function(str){
-      return str.trim(); 
-   })
-   return newArr;
-}
+const firstNames = fullNames.map(function(person) {
+    return person.first;
+});
 
-// Alternative Solution
-const cleanNames = arr => {
-    return arr.map(name => name.trim())
-};
-
-// More cleaner syntax
-const cleanNames = arr => arr.map(name => name.trim());
+// or uncomment below for a more succinct version that uses an arrow function
+// const firstNames = fullNames.map(person => person.first);
