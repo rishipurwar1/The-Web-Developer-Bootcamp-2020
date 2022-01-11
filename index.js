@@ -1,8 +1,8 @@
-// define isSnakeEyes below:
-function isSnakeEyes(die1,die2) {
-    if(die1 === 1 && die2 === 1) {
+// Define isSnakeEyes below:
+function isSnakeEyes(die1, die2) {
+    if (die1 === 1 && die2 === 1) {
         console.log('Snake Eyes!');
-    }else {
+    } else {
        console.log('Not Snake Eyes!');
     }
 }
