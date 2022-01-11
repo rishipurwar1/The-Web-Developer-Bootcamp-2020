@@ -1,4 +1,4 @@
-# The Web Developer Bootcamp 2020
+# The Web Developer Bootcamp 2021
 ## To see the solution of the particular quiz, please navigate through the branches dropdown menu.
 ## Feel Free to give a star to this repository⭐
 
