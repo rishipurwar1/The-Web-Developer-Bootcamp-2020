@@ -1,6 +1,6 @@
 // WRITE YOUR CODE IN HERE:
-const liS = document.querySelectorAll('li');
+const lis = document.querySelectorAll('li');
  
-for(let li of liS){
+for(let li of lis){
     li.classList.toggle('highlight');
 }
