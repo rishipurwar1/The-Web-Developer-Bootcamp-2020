@@ -2,5 +2,5 @@
 const word = 'skateboard' //Don't change this line!
 
 // YOUR CODE BELOW THIS LINE:
-let facialHair = word.slice(5,10);
+let facialHair = word.slice(5);
 facialHair = facialHair.replace('o','e');
